@@ -25,4 +25,7 @@ logging:
   config: classpath:logback.xml
   file:
     name: ${user.dir}/logs/${spring.application.name}
+  level:
+    com.qj.novel.crawler.mapper: debug
+    root: info
 
